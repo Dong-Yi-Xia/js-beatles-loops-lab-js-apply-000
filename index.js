@@ -12,6 +12,9 @@ function johnLennonFacts(facts){
   let boldPhrase = []
   let i = 0
   while(i < facts.length){
+    str = `${facts[i]}!!!`
+    boldPhrase.push(str)
     i++
   }
+  return boldPhrase
 }
