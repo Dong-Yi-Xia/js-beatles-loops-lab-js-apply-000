@@ -24,9 +24,10 @@ function iLoveTheBeatles(num){
   let chant = []
   let i = 0
   do{
+    i++
     let str = "I love the Beatles!"
     chant.push(str)
-    i++
+    
   } while (i < 15)
   return chant
 }
