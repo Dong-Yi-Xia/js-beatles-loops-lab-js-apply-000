@@ -22,12 +22,12 @@ function johnLennonFacts(facts){
 
 function iLoveTheBeatles(num){
   let chant = []
-  let i = 0
+  let i = num
   do{
-    i++
     let str = "I love the Beatles!"
     chant.push(str)
-
-  } while (i < 15)
+    i--
+    
+  } while (i >= 0 && i < 15)
   return chant
 }
